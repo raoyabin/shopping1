@@ -1,0 +1,62 @@
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<LINK REL=stylesheet HREF="script/toc.css" TYPE="text/css">
+<SCRIPT LANGUAGE="JavaScript" src="script/AdminTree.js"></script>
+<STYLE TYPE='text/css'>
+.level1 {margin-left:30;}
+.level2 {display:none;margin-left:38;}
+</STYLE>
+</HEAD>
+<BODY onload="init()" topmargin="0" leftmargin="0" rightmargin="0">
+<DIV CLASS="level1" ID='head2Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head2");'><IMG border=0 name=imEx  src="images/arrowUp.gif" id=ttt> User management</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head2Child'>
+	<A href="UserList.jsp" id=ttt target=main><LI>User list</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head3Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head3");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> category management</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head3Child'>
+	<A href="CategoryList.jsp" id=ttt target=main><LI>Catagory List</LI></a>
+	<A href="CategoryListAJAX.jsp" id=ttt target=main><LI>Catagory List</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head4Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head4");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> product management</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head4Child'>
+	<A href="ProductList.jsp" id=ttt target=main><LI>Product List</LI></a>
+	<A href="ProductSearch.jsp" id=ttt target=main><LI>Product Search</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head6Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head6");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> order management</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head6Child'>
+	<A href="OrderList.jsp" id=ttt target=main><LI>Order list</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head7Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head7");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> Analysis</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head7Child'>
+	<A href="../servlet/SalesCountServlet" id=ttt target=main><LI>selling count</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head8Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head8");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> liveBroadcast</a>
+</DIV>
+
+
+
+</BODY>
+</html>

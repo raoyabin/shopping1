@@ -1,0 +1,4 @@
+1. first install Tomcat server 9.0. This project use Java servelet ,so also should import servelet-api.jar.and for database I used MySQL.
+2.run index.jsp file on Tomcat server, we can register for new users and log in exist users.after log in we can update info such as password and address etc.
+3.run adminIndex.jsp file on Tomcat server , we can view all the user list and product list and order list.in product we can search product by price and name and update time.the list is already sorted by product ID.
+4.in index.jsp,after we log in we can buy products and make orders.the order will be saved in order lists.
